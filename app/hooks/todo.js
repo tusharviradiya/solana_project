@@ -14,7 +14,7 @@ let dummyTodos = [
     {
         account:{
             idx: '0',
-            content: 'Finish the essay collaboration',
+            content: 'tushar is god',
             marked: false,
         }
 
@@ -70,7 +70,7 @@ export function useTodo() {
     const [transactionPending, setTransactionPending] = useState(false)
     const [input, setInput] = useState("")
 
-
+ 
     const program = useMemo(() => {
         if (anchorWallet) {
             const provider = new anchor.AnchorProvider(connection, anchorWallet, anchor.AnchorProvider.defaultOptions())
